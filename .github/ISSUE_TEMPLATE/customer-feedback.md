@@ -1,5 +1,5 @@
 ---
-name: Customer feedback 🌱
+name: "Customer feedback \U0001F331"
 about: New feedback
 title: 'Feedback: (feedback TL;DR here)'
 labels: 'feedback :seedling:'

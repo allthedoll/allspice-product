@@ -1,5 +1,5 @@
 ---
-name: Customer conversation request 💬
+name: "Customer conversation request \U0001F4AC"
 about: Request product to speak with a customer
 title: 'Conversation request: CUSTOMER about TOPIC'
 labels: 'conversation :speech_balloon:'
