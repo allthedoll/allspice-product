@@ -23,21 +23,21 @@ assignees: ''
 - **Revision control tool:** 
 - **Other tools used:** 
 
-## Pre-trial feedback questions
+## 🔜 Pre-trial feedback questions
 
 - What does your workflow and process look like today?
   - Does this workflow and process work for you?
   - Are there any pain or friction points?
 - If you could solve what thing, what would it be?
 
-## Peri-trial feedback questions
+## :on: Peri-trial feedback questions
 
 - What are you testing right now?
 - Are you having trouble with anything?
 - Is anything standing out, good or bad?
 - What else would you like to try?
 
-## Post-trial feedback questions
+## 🔚 Post-trial feedback questions
 
 - What did you think of the AllSpice demo?
 - What did you test during the trial?
