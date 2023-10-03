@@ -7,6 +7,6 @@ assignees: ''
 
 ---
 
-- **Customer:**
-- **Customer contact:**
-- **Feedback details:**
+- **Customer:** 
+- **Customer contact:** 
+- **Feedback details:** 
