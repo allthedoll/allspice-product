@@ -17,7 +17,7 @@ assignees: ''
 
 ## Basic info
 
-- ** Company size:** 
+- **Company size:** 
   - **Number of employees:** 
 - **ECAD tool:** 
 - **Revision control tool:** 
