@@ -2,7 +2,7 @@
 name: "Customer conversation request \U0001F4AC"
 about: Request Product to speak with a customer
 title: 'Conversation request: CUSTOMER about TOPIC'
-labels: 'conversation :speech_balloon:'
+labels: 'conversation request :speech_balloon:'
 assignees: ''
 
 ---
