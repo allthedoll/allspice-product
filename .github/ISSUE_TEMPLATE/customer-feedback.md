@@ -4,7 +4,7 @@ about: New feedback
 title: 'Feedback: (feedback TL;DR here)'
 labels: 'feedback :seedling:'
 assignees: ''
-projects: ["allthedoll/3"]
+projects: ["allthedoll/projects/3"]
 ---
 
 - **Customer:** 
