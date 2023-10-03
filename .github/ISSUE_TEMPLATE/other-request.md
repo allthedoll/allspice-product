@@ -2,7 +2,7 @@
 name: Other request
 about: For miscellaneous requests of product that don't fit into other issue categories
 title: 'Other request: (your TL;DR here)'
-labels: ''
+labels: 'request :pray:'
 assignees: ''
 
 ---
