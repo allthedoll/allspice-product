@@ -1,5 +1,5 @@
 ---
-name: Customer feedback
+name: Customer feedback 🌱
 about: New feedback
 title: 'Feedback: (feedback TL;DR here)'
 labels: 'feedback :seedling:'
