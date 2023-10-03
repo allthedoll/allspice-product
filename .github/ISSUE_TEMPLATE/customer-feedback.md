@@ -1,6 +1,6 @@
 ---
 name: "Customer feedback \U0001F331"
-about: New feedback about AllSpice
+about: New feedback
 title: 'Feedback: (feedback TL;DR here)'
 labels: 'feedback :seedling:'
 assignees: ''

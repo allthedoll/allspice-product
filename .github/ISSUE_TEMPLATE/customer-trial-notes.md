@@ -1,6 +1,6 @@
 ---
-name: 'Customer trial notes 🖊️'
-about: A template to guide trial conversations with customers (before, during, and after!)
+name: "Customer trial notes \U0001F58A️"
+about: A template to guide trial conversations with customers
 title: 'Conversation notes: CUSTOMER about TOPIC'
 labels: ''
 assignees: ''
