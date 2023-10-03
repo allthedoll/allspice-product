@@ -11,5 +11,4 @@ assignees: ''
 - **Customer contact:**
 - **Conversation topic:**
 - **Is this a product demo?**
-  - [ ]  yes
 - **Anything else to know:**
