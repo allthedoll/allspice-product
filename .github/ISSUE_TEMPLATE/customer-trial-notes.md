@@ -1,5 +1,5 @@
 ---
-name: 'Customer trial notes :pen:'
+name: 'Customer trial notes 🖊️'
 about: A template to guide trial conversations with customers
 title: 'Conversation notes: CUSTOMER about TOPIC'
 labels: ''
