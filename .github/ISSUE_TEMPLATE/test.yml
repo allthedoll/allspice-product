@@ -1,5 +1,5 @@
 name: "Request a conversation with the Product \U0001F4AC"
-about: Request Product to speak with a customer
+description: Request Product to speak with a customer
 title: 'Request conversation with Product about TOPIC'
 labels: 'conversation-request 💬'
 assignees: '@allthedoll'
