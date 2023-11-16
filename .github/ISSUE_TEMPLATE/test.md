@@ -1,4 +1,4 @@
-name: Bug Report
+name: Test
 description: Found something you weren't expecting? Report it here!
 labels: ["type/bug"]
 body:
