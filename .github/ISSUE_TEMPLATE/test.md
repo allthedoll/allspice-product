@@ -1,44 +1,91 @@
----
-name: "Request a conversation with the Product \U0001F4AC"
-about: Request Product to speak with a customer
-title: 'Request conversation with Product about TOPIC'
-labels: 'conversation-request 💬'
-assignees: '@allthedoll'
----
-
+name: Bug Report
+description: Found something you weren't expecting? Report it here!
+labels: ["type/bug"]
 body:
   - type: markdown
     attributes:
       value: |
-        Please fill out the form to the best of your ability. 😊
-  - type: input
-    id: contact
+        NOTE: If your issue is a security concern, please send an email to security@gitea.io instead of opening a public issue.
+  - type: markdown
     attributes:
-      label: Customer contact:
-      description: Which customer contact(s) should we speak with?
-    validations:
-      required: true
+      value: |
+        1. Please speak English, this is the language all maintainers can speak and write.
+        2. Please ask questions or configuration/deploy problems on our Discord
+           server (https://discord.gg/gitea) or forum (https://discourse.gitea.io).
+        3. Make sure you are using the latest release and
+           take a moment to check that your issue hasn't been reported before.
+        4. Make sure it's not mentioned in the FAQ (https://docs.gitea.com/help/faq)
+        5. It's really important to provide pertinent details and logs (https://docs.gitea.com/help/support),
+           incomplete details will be handled as an invalid report.
   - type: textarea
-    id: topic
+    id: description
     attributes:
-      label: Conversation topic(s):
-      description: What should we talk about?
+      label: Description
+      description: |
+        Please provide a description of your issue here, with a URL if you were able to reproduce the issue (see below)
+        If you are using a proxy or a CDN (e.g. Cloudflare) in front of Gitea, please disable the proxy/CDN fully and access Gitea directly to confirm the issue still persists without those services.
+  - type: input
+    id: gitea-ver
+    attributes:
+      label: Gitea Version
+      description: Gitea version (or commit reference) of your instance
     validations:
       required: true
   - type: dropdown
-    id: is-demo
+    id: can-reproduce
     attributes:
-      label: Is this a product demo?
+      label: Can you reproduce the bug on the Gitea demo site?
       description: |
+        If so, please provide a URL in the Description field
+        URL of Gitea demo: https://try.gitea.io
       options:
         - "Yes"
         - "No"
     validations:
       required: true
-- type: textarea
-    id: more-info
+  - type: markdown
     attributes:
-      label: Anything else to know:
-      description: Provide any context, details, etc. that will be helpful.
+      value: |
+        It's really important to provide pertinent logs
+        Please read https://docs.gitea.com/administration/logging-config#collecting-logs-for-help
+        In addition, if your problem relates to git commands set `RUN_MODE=dev` at the top of app.ini
+  - type: input
+    id: logs
+    attributes:
+      label: Log Gist
+      description: Please provide a gist URL of your logs, with any sensitive information (e.g. API keys) removed/hidden
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: If this issue involves the Web Interface, please provide one or more screenshots
+  - type: input
+    id: git-ver
+    attributes:
+      label: Git Version
+      description: The version of git running on the server
+  - type: input
+    id: os-ver
+    attributes:
+      label: Operating System
+      description: The operating system you are using to run Gitea
+  - type: textarea
+    id: run-info
+    attributes:
+      label: How are you running Gitea?
+      description: |
+        Please include information on whether you built Gitea yourself, used one of our downloads, are using https://try.gitea.io or are using some other package
+        Please also tell us how you are running Gitea, e.g. if it is being run from docker, a command-line, systemd etc.
+        If you are using a package or systemd tell us what distribution you are using
     validations:
-      required: false
+      required: true
+  - type: dropdown
+    id: database
+    attributes:
+      label: Database
+      description: What database system are you running?
+      options:
+        - PostgreSQL
+        - MySQL/MariaDB
+        - MSSQL
+        - SQLite
