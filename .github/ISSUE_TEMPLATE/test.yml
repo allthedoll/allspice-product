@@ -1,6 +1,10 @@
-name: Test
-description: Found something you weren't expecting? Report it here!
-labels: ["type/bug"]
+---
+name: "Request a conversation with the Product \U0001F4AC"
+about: Request Product to speak with a customer
+title: 'Request conversation with Product about TOPIC'
+labels: 'conversation-request 💬'
+assignees: '@allthedoll'
+---
 body:
   - type: markdown
     attributes:
